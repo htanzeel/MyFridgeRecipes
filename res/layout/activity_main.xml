@@ -1,0 +1,223 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TableLayout
+            android:id="@+id/TableLayout1"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent" >
+              <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/enterIngredientTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/enter_ingredient"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addbutton" />
+    </TableRow>
+    
+     <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <ScrollView
+            android:id="@+id/ingredientScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <LinearLayout
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical">
+            <TableLayout
+                android:id="@+id/ScrollTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                
+             </TableLayout>
+             
+            <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/search_button"
+                android:onClick="searchRecipe"/>
+            </TableRow>
+            </LinearLayout>
+            </ScrollView>
+            
+        </TableRow>
+        </TableLayout>
+        
+        
+        
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/AdvancedMenu"
+        android:layout_gravity="start"
+        android:layout_width="240dp"
+        android:background="#FFFFFF"
+        >
+    
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cuisine"
+            android:background="#FFFFFF"
+        	android:textColor="@color/text_color"
+        	android:textSize="20sp"
+			android:textAlignment="center"
+            />
+            
+            
+  	<Spinner 
+        android:id="@+id/CuisineSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  	
+  	
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course"
+            android:background="#FFFFFF"
+        	android:textColor="@color/text_color"
+        	android:textSize="20sp"
+        	android:textAlignment="center"
+            />
+            
+            
+  	<Spinner 
+        android:id="@+id/CourseSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  	
+  	
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/holiday"
+            android:background="#FFFFFF"
+        	android:textAlignment="center"
+        	android:textColor="@color/text_color"
+        	android:textSize="20sp"
+            />
+            
+            
+  	<Spinner 
+        android:id="@+id/HolidaySpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  	
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+        	android:textColor="@color/text_color"
+        	android:textSize="20sp"
+            />
+            
+            
+  	<Spinner 
+        android:id="@+id/TimeSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  	
+  	
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/allergy"
+            android:background="#FFFFFF"
+        	android:textAlignment="center"
+        	android:textColor="@color/text_color"
+        	android:textSize="20sp"
+            />
+            
+            
+  	<Spinner 
+        android:id="@+id/AllergySpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  	
+  	
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diet"
+            android:background="#FFFFFF"
+        	android:textAlignment="center"
+        	android:textColor="@color/text_color"
+        	android:textSize="20sp"
+            />
+            
+            
+  	<Spinner 
+        android:id="@+id/DietSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+ 
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#666"
+        android:dividerHeight="1dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:textColor="@color/text_color"
+        />
+    </LinearLayout>
+ 
+</android.support.v4.widget.DrawerLayout>

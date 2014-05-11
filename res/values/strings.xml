@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FridgeRecipes</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="items">
+        
+    </string-array>
+    <string-array name="cuisineArray">
+        <item>Select</item>
+        <item>American</item>
+        <item>Asian</item>
+        <item>Barbecue</item>
+        <item>Cajun and Creole</item>
+        <item>Chinese</item>
+        <item>Cuban</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hawaiin</item>
+        <item>Hungarian</item>
+        <item>Indian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Moroccan</item>
+        <item>Portugese</item>
+        <item>Southern and Soul Food</item>
+        <item>Southwestern</item>
+        <item>Spanish</item>
+        <item>Swedish</item>
+        <item>Thai</item>
+    </string-array>
+    <string-array name="courseArray">
+        <item>Select</item>
+        <item>Appetizers</item>
+        <item>Breads</item>
+        <item>Breakfast and Brunch</item>
+        <item>Beverages</item>
+        <item>Cockatils</item>
+        <item>Condiments and Sauces</item>
+        <item>Desserts</item>
+        <item>Lunch and Snacks</item>
+        <item>Main Dishes</item>
+        <item>Salads</item>
+        <item>Side Dishes</item>
+        <item>Soups</item>
+    </string-array>
+    <string-array name="holidayArray">
+        <item>Select</item>
+        <item>Christmas</item>
+        <item>Halloween</item>
+        <item>New Year</item>
+        <item>Summer</item>
+        <item>Thanksgiving</item>
+        <item>Winter</item>
+    </string-array>
+    <string-array name="timeArray">
+        <item>Select</item>
+        <item> Less than 15 minutes</item>
+        <item> Less than 30 minutes</item>
+        <item> Less than 45 minutes</item>
+        <item> Less than 1 hour</item>
+        <item> Less than 2 hours</item>
+        <item> Less than 3 hours</item>
+    </string-array>
+    <string-array name="allergyArray">
+        <item>Select</item>
+        <item>Dairy</item>
+        <item>Egg</item>
+        <item>Gluten</item>
+        <item>Peanut</item>
+        <item>Seafood</item>
+        <item>Seasame</item>
+        <item>Soy</item>
+        <item>Sulfite</item>
+        <item>Tree Nut</item>
+        <item>Wheat</item>
+    </string-array>
+    <string-array name="dietArray">
+        <item>Select</item>
+        <item>Lacto Vegetarian</item>
+        <item>Ovo Vegetarian</item>
+        <item>Pescetarian</item>
+        <item>Vegan</item>
+        <item>Vegetarian</item>
+    </string-array>
+
+    <string name="enter_ingredient">Enter Ingredients</string>
+    <string name="search_button">Search</string>
+    <string name="add_button">+</string>
+    <string name="delete_button">-</string>
+    <string name="buy_button">Show Stores</string>
+    <string name="facebook_login">Share on Facebook</string>
+    <string name="title_activity_search_recipe">Recipies</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="course">Course</string>
+    <string name="holiday">Holiday</string>
+    <string name="time">Available Time</string>
+    <string name="allergy">Allergy</string>
+    <string name="diet">Dietary Restriction</string>
+    <string name="title_activity_selected_recipe">Selected Recipe</string>
+    <string name="title_activity_advanced_search">Advanced Search</string>
+    <string name="title_activity_buy_ingredient">Grocery Stores Nearby</string>
+    <string name="title_activity_recipe_selected">Selected Recipe</string>
+    <string name="title_activity_my_recipe">Selected Recipe</string>
+    <string name="title_activity_buy_ingredients">Stores Nearby</string>
+    <string name="title_activity_map">Map</string>
+    <string name="ShowMap">Show Map</string>
+    <string name="title_activity_share_recipe">Share</string>
+    <string name="facebook_login_share">Share on Facebook</string>
+    <string name="url_button">View Recipe</string>
+    <string name="title_activity_web_view">Directions</string>
+    <string name="ingredientHeading">Ingredients: </string>
+    <string name="serveHeading">Servings: </string>
+    <string name="timeHeading">Time: </string>
+    <string name="sourceHeading">Recipe Source: </string>
+    <string name="noResultString">Sorry, no results available. Please modify your search query.Thanks!</string>
+    <string name="facebook_logout">Logout</string>
+
+</resources>
